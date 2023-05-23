@@ -10,7 +10,11 @@ function App() {
       </div>
       <div className="form-container">
         <p>etapas</p>
-        <form></form>
+        <form>
+          <div className="actions">
+            <button type="button"></button>
+          </div>
+        </form>
       </div>
     </div>
       
