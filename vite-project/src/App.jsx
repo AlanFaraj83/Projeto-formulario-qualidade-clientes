@@ -4,7 +4,9 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Formulario Qualidade Clientes</h1>
+      <div className="header">
+        <h2>Deixe sua avaliação</h2>
+      </div>
     </div>
       
   )
