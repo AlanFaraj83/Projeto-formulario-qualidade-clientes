@@ -19,7 +19,10 @@ function App() {
               <GrFormPrevious />
               <span>Voltar</span>
             </button>
-            <button type="submit">Avançar</button>
+            <button type="submit">
+              <span>Avançar</span>
+              <GrFormNext />
+            </button>
           </div>
         </form>
       </div>
