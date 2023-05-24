@@ -12,7 +12,9 @@ function App() {
         <p>etapas</p>
         <form>
           <div className="actions">
-            <button type="button">Voltar</button>
+            <button type="button">
+              <span>Voltar</span>
+            </button>
             <button type="submit">Avançar</button>
           </div>
         </form>
