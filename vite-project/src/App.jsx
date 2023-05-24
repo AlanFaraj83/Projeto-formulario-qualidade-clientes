@@ -1,3 +1,6 @@
+// Coomponents
+import {GrFormNext, GrFormPrevious} from 'react-icons/gr';
+
 import './App.css'
 
 function App() {
@@ -13,6 +16,7 @@ function App() {
         <form>
           <div className="actions">
             <button type="button">
+              <GrFormPrevious />
               <span>Voltar</span>
             </button>
             <button type="submit">Avançar</button>
