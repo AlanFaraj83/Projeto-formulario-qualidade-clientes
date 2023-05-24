@@ -13,6 +13,7 @@ function App() {
         <form>
           <div className="actions">
             <button type="button">Voltar</button>
+            <button type="submit">Avançar</button>
           </div>
         </form>
       </div>
