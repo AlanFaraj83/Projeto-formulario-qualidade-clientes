@@ -1,6 +1,7 @@
 // Coomponents
 import {GrFormNext, GrFormPrevious} from 'react-icons/gr';
-import {UserForm} from './components/UserForm';
+import UserForm from "./components/UserForm";
+import ReviewForm from './components/ReviewForm';
 
 import './App.css'
 
