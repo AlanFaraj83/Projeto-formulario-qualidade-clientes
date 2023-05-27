@@ -13,6 +13,8 @@ function App() {
 
   const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
 
+  const {} = useForm(formComponents)
+
   return (
     <div className="app">
       <div className="header">
