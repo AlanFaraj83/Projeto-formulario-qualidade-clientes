@@ -5,7 +5,7 @@ import ReviewForm from './components/ReviewForm';
 import Thanks from './components/Thanks';
 
 // Hooks
-import UserForm from './components/UserForm';
+import {useForm} from "./hooks/useForm";
 
 import './App.css';
 
