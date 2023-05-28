@@ -26,7 +26,7 @@ function App() {
         <form>
           <div className="inputs-container">{currentComponent}</div>
           <div className="actions">
-            <button type="button">
+            <button type="button" onClick={() => changeStep(currentStep - 1)}>
               <GrFormPrevious />
               <span>Voltar</span>
             </button>
