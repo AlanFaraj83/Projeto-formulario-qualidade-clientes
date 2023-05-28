@@ -5,10 +5,15 @@ export function useForm(steps) {
 
     function changeStep(i, e) {
         e.preventDefault();
+
+        if(i < 0 || i >= steps.length) return
+
+        setCurrentStep(i);
     }
 
     return {
         currentStep,
         currentComponent: steps[currentStep],
+        changeStep,
     };
 }
