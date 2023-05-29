@@ -13,7 +13,7 @@ function App() {
 
   const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
 
-  const {currentStep, currentComponent} = useForm(formComponents);
+  const {currentStep, currentComponent, changeStep} = useForm(formComponents);
 
   return (
     <div className="app">
