@@ -39,7 +39,7 @@ function App() {
             ) : (
               <button type="button">
                 <span>Enviar</span>
-                <GrFormNext />
+                <FiSend />
               </button>
             )}
           </div>
