@@ -3,7 +3,9 @@ import React from "react";
 const UserForm = () => {
     return (
         <div>
-            <h2>User Form</h2>
+            <div className="form-control">
+                <label htmlFor="name">Nome:</label>
+            </div>
         </div>
     )
 }
