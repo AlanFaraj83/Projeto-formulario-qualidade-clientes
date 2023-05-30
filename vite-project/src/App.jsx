@@ -14,7 +14,7 @@ function App() {
 
   const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
 
-  const {currentStep, currentComponent, changeStep, isLastStep} = useForm(formComponents);
+  const {currentStep, currentComponent, changeStep, isLastStep, isFirstStep} = useForm(formComponents);
 
   return (
     <div className="app">
@@ -27,10 +27,11 @@ function App() {
         <form onSubmit={(e) => changeStep(currentStep + 1, e)}>
           <div className="inputs-container">{currentComponent}</div>
           <div className="actions">
-            <button type="button" onClick={() => changeStep(currentStep - 1)}>
-              <GrFormPrevious />
-              <span>Voltar</span>
-            </button>
+            {!isFirstStep && (
+              <button type="button" onClick={() => changeStep(currentStep - 1)}>
+                <GrFormPrevious />
+                <span>Voltar</span>
+              </button>)}
             {!isLastStep ? (
               <button type="submit">
                 <span>Avançar</span>
