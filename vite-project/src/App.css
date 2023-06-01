@@ -14,3 +14,19 @@
 }
 
 /* Forms */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 1.5re;
+    box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
+}
+
+.form-container form {
+    max-width: 400px;
+}
+
+.inputs-container {
+    min-height: 280px;
+}
+
