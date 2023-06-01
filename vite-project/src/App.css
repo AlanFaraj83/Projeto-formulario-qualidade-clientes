@@ -58,3 +58,7 @@ textarea {
 }
 
 /* Actions */
+
+.action {
+    display: flex;
+}
