@@ -17,16 +17,43 @@
 .form-container {
     max-width: 600px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #e4dada;
     padding: 1.5re;
     box-shadow: rgba(100, 100, 111, .2) 0px 7px 29px 0px;
 }
 
 .form-container form {
     max-width: 400px;
+    margin: 0 auto;
 }
 
 .inputs-container {
     min-height: 280px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(6, 88, 6);
+    font-size: 0.9rem;
+
+}
+
+input,
+textarea {
+    padding: .6rem;
+    border: none;
+    border-radius: 3px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0;
+}
+
+textarea {
+    height: 120px;
 }
 
