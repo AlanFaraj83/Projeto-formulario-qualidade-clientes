@@ -64,3 +64,8 @@ textarea {
     justify-content: flex-end;
     gap: 1rem;
 }
+
+.actions button {
+    font-size: 0.9rem;
+    padding: .5rem 1rem;
+}
