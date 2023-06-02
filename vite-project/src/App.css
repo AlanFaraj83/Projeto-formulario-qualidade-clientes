@@ -68,6 +68,9 @@ textarea {
 .actions button {
     font-size: 0.9rem;
     padding: .5rem 1rem;
+    display: flex;
     gap: 0.5rem;
+    align-items: center;
+    border-radius: 3px;
 
 }
