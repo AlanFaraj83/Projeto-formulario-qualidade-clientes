@@ -72,5 +72,14 @@ textarea {
     gap: 0.5rem;
     align-items: center;
     border-radius: 3px;
+    background-color: rgb(148, 137, 137);
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
 
+}
+
+.actions button:hover{
+    scale: 1.1;
+    background-color: rgb(116, 217, 144);
 }
