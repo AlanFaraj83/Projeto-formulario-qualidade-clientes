@@ -1,6 +1,6 @@
-import React from "react";
+import "./Steps.css"
 
-const Steps = () => {
+const Steps = ({ currentStep }) => {
     return <div>Steps</div>;
     
 };
