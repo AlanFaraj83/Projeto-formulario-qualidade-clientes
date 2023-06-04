@@ -9,7 +9,7 @@ const Steps = ({ currentStep }) => {
             <p>Identificação</p>
         </div>
 
-        <div className="step">
+        <div className={}>
             <AiOutlineStar />
             <p>Avaliação</p>
         </div>
