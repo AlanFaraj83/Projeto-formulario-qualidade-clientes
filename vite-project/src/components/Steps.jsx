@@ -5,6 +5,14 @@ const Steps = ({ currentStep }) => {
         <div className="step">
             <p>Identificação</p>
         </div>
+
+        <div className="step">
+            <p>Avaliação</p>
+        </div>
+
+        <div className="step">
+            <p>Envio</p>
+        </div>
     </div>;
     
 };
