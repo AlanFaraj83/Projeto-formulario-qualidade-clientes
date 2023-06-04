@@ -1,7 +1,7 @@
 import "./Steps.css"
 
 const Steps = ({ currentStep }) => {
-    return <div>Steps</div>;
+    return <div className="steps">Steps</div>;
     
 };
 
