@@ -76,6 +76,7 @@ textarea {
     cursor: pointer;
     border: none;
     transition: 0.3s;
+    margin-bottom: 1rem;
 
 }
 
