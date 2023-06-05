@@ -7,6 +7,7 @@
     margin: 0 auto;
     position: relative;
     margin-bottom: 2rem;
+    bottom: -9px;
 }
 
 .steps::after {
@@ -14,4 +15,12 @@
     width: 380px;
     border-bottom: 1px solid #d34e4e;
     position: absolute;
+    top:20px
+}
+
+.step {
+    text-align: center;
+    background-color: #e4dada;
+    z-index: 1;
+    width: 120px;
 }
