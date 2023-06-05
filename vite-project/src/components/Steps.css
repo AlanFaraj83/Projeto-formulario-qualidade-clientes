@@ -12,5 +12,6 @@
 .steps::after {
     content: "";
     width: 380px;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #d34e4e;
+    position: absolute;
 }
