@@ -8,3 +8,9 @@
     position: relative;
     margin-bottom: 2rem;
 }
+
+.steps::after {
+    content: "";
+    width: 380px;
+    border-bottom: 1px solid #ccc;
+}
