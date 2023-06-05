@@ -35,3 +35,7 @@
 .active {
     font-weight: bold;
 }
+
+.active > svg {
+    fill: #e91431;
+}
