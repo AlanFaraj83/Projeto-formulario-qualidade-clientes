@@ -5,7 +5,7 @@ const ReviewForm = () => {
         <div className="review-form">
             <div className="form-control score-container">
                 <label className="radio-container">
-                    <input type="radio" value="unsatisfied" />
+                    <input type="radio" value="unsatisfied" name="review" required/>
                 </label>
             </div>
         </div>
