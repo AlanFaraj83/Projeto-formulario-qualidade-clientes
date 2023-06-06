@@ -9,3 +9,7 @@
     cursor: pointer;
     transition: 0.3s;
 }
+
+.score-container svg:hover {
+    fill: rgb(121, 233, 69);
+}
