@@ -34,7 +34,7 @@ const ReviewForm = () => {
                 </label>
             </div>
             <div className="form-control">
-                <label htmlFor="comment"></label>
+                <label htmlFor="comment">Comentários:</label>
             </div>
         </div>
     )
