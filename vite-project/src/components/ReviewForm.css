@@ -13,3 +13,7 @@
 .score-container svg:hover {
     fill: rgb(121, 233, 69);
 }
+
+.score-container input:checked ~ svg {
+    fill: rgb(121, 233, 69);
+}
