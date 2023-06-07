@@ -17,3 +17,8 @@
 .score-container input:checked ~ svg {
     fill: rgb(121, 233, 69);
 }
+
+.radio-container {
+    text-align: center;
+    position: relative;
+}
