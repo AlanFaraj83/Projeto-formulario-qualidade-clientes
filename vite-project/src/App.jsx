@@ -23,6 +23,12 @@ const formTemplate = {
 function App() {
   const [data, setData] = useState(formTemplate);
 
+  const updateFielHandler = (key, value) => {
+    setData((prev) => {
+      
+    })
+  }
+
   const formComponents = [
     <UserForm data={data} />, 
     <ReviewForm data={data}/>, 
