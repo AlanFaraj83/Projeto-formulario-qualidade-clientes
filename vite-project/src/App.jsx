@@ -21,9 +21,13 @@ const formTemplate = {
 };
 
 function App() {
-  const [data, setData] = useState();
+  const [data, setData] = useState(formTemplate);
 
-  const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
+  const formComponents = [
+    <UserForm data={data} />, 
+    <ReviewForm data={data}/>, 
+    <Thanks data={data} />,
+  ];
 
   const {currentStep, currentComponent, changeStep, isLastStep, isFirstStep} = useForm(formComponents);
 
