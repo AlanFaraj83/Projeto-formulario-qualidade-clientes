@@ -17,6 +17,9 @@ const Thanks = () => {
             <p className="review-data">
                 <span>Satisfação com o produto:</span>
             </p>
+            <p className="review-data">
+                <span>Comentário:</span>
+            </p>
         </div>
     )
 }
