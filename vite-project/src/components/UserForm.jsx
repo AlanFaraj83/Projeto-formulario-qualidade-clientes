@@ -23,7 +23,9 @@ const UserForm = ({ data, updateFieldHandler }) => {
                     name="email"
                     id="email" 
                     placeholder="Digite o seu e-mail" 
-                    required 
+                    required
+                    value={data.email || ""}
+                    onChange={(e) => updateFieldHandler("email", e.target.value)} 
                 />
             </div>
         </div>
