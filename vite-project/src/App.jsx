@@ -15,6 +15,7 @@ import './App.css';
 
 
 function App() {
+  const [data, setData] = useState();
 
   const formComponents = [<UserForm />, <ReviewForm />, <Thanks />];
 
