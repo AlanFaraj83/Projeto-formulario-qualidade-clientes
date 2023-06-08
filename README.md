@@ -30,11 +30,12 @@
 
 ### <strong><i>Como clonar o projeto:</i></strong>
 
-<p> git clone </p>
+<p> git clone https://github.com/AlanFaraj83/Projeto-formulario-qualidade-clientes.git </p>
+<p>Quando clonar o projeto é só entrar na pasta do projeto "cd vite-project" e depois dar "npm run" e abrir apagina do link mostrado no visual studio code.</p>
 
 
 ## 📝 Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE] para mais detalhes.
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE] https://github.com/AlanFaraj83/Projeto-formulario-qualidade-clientes/blob/main/LICENSE para mais detalhes.
 
 
