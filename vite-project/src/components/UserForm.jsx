@@ -1,6 +1,6 @@
 import React from "react";
 
-const UserForm = ({ data }) => {
+const UserForm = ({ data, updateFieldHandler }) => {
     return (
         <div>
             <div className="form-control">
@@ -10,7 +10,9 @@ const UserForm = ({ data }) => {
                     name="name"
                     id="name" 
                     placeholder="Digite o seu nome" 
-                    required 
+                    required
+                    value={data.name || ""}
+                    onChange={(e) => updateFieldHandler("name", e.target.value)}
                 />
             </div>
 

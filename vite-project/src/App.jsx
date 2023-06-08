@@ -25,7 +25,7 @@ function App() {
 
   const updateFieldHandler = (key, value) => {
     setData((prev) => {
-      return {...prev, [key]:value};
+      return {...prev, [key]: value};
     });
   };
 
