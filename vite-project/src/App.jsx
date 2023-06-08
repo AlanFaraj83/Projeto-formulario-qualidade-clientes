@@ -13,6 +13,12 @@ import { useState } from "react";
 
 import './App.css';
 
+const formTemplate = {
+  name: "",
+  email:"",
+  review:"",
+  Comment:"",
+};
 
 function App() {
   const [data, setData] = useState();
